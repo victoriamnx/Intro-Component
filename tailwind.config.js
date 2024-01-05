@@ -22,9 +22,6 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
-      backgroundImage: {
-        mobile: "url('./src/components/bg-intro-mobile.png')",
-      },
     },
   },
   plugins: [],

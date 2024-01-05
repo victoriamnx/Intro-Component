@@ -19,3 +19,7 @@
 input {
   caret-color: #5e54a4;
 }
+
+#main {
+  background-image: url(./components/bg-intro-desktop.png);
+}
