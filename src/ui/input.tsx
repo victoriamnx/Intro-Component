@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import Error from "./icon-error.svg";
 interface FieldState {
   value: string;
   error: boolean;
@@ -75,7 +75,7 @@ export class Form extends Component<{}, FormState> {
             </div>
           )}
           <img
-            src="./src/components/icon-error.svg"
+            src={Error}
             alt="Ícone"
             className={`${
               firstName.error ? "block" : "hidden"
@@ -99,7 +99,7 @@ export class Form extends Component<{}, FormState> {
             </div>
           )}
           <img
-            src="./src/components/icon-error.svg"
+            src={Error}
             alt="Ícone"
             className={`${
               lastName.error ? "block" : "hidden"
@@ -123,7 +123,7 @@ export class Form extends Component<{}, FormState> {
             </div>
           )}
           <img
-            src="./src/components/icon-error.svg"
+            src={Error}
             alt="Ícone"
             className={`${
               email.error ? "block" : "hidden"
@@ -147,7 +147,7 @@ export class Form extends Component<{}, FormState> {
             </div>
           )}
           <img
-            src="./src/components/icon-error.svg"
+            src={Error}
             alt="Ícone"
             className={`${
               password.error ? "block" : "hidden"
